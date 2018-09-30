@@ -1,2 +1,0 @@
-playlistId: 'PLnw0oJfCMWaR10TuwTXmLVUQS6CPvOCd2', // good id
-key: 'AIzaSyBg0oosTPGdnxUkoB2Y0nlg4fAPA7MbF0U'
