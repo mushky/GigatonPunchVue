@@ -1,9 +1,7 @@
 axios.get('https://www.googleapis.com/youtube/v3/playlistItems', {
   params: {
     part: 'snippet',
-    playlistId: 'PLnw0oJfCMWaR10TuwTXmLVUQS6CPvOCd2', // good id
     maxResults: 6, 
-    key: 'AIzaSyBg0oosTPGdnxUkoB2Y0nlg4fAPA7MbF0U'
   }
 })
 .then(function (response) {
