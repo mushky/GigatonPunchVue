@@ -15,7 +15,7 @@
 
   </style>  
   <div class="container">
-    <img src="images/punchGloveLogo.png")></a>
+    <img src="images/punchGloveLogo.png" class="gigaton-logo")></a>
   </div>
 
   <div class="container">
@@ -32,12 +32,12 @@
       });
     </script>
   </div>
-  <div class="container-fluid">
+  <div class="container">
     <h1>Replay List</h1>
 
     <div id="main-video">
       <p id="moveTitle">Select a Video</p>
-      <iframe width="600" height="315" ></iframe>
+      <iframe width="1000" height="0" ></iframe>
     </div>
 
     <ul id="list">
@@ -45,12 +45,13 @@
         <a onClick="return false;" v-on:click="movieDetail(index)" v-bind:href="item.snippet.resourceId.videoId" >
           <img v-bind:src="item.snippet.thumbnails.high.url">
           <span class="title">{{ item.snippet.title }}</span>
-          <span class="description">{{ item.snippet.description }}</span>
+          <!--<span class="description">{{ item.snippet.description }}</span>-->
         </a>
       </li>
     </ul>
+
   </div>
-  
+
 
 </body>
 <div id="footer">

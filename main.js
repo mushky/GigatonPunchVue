@@ -30,11 +30,11 @@ function initVue(moveInfo){
         var title = this.items[index].snippet.title;
 
         var mainVideoElem = document.querySelector('#main-video');
-        // Delete Processing
         
+        // Delete Processing
         var move = document.querySelector('iframe');
         var moveTitleElem = document.querySelector('#moveTitle');
-        mainVideoElem.removeChild(move);
+        //mainVideoElem.removeChild(move);
         
         // Additional Processing
         var iframe = document.createElement('iframe');
