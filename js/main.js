@@ -1,7 +1,9 @@
 axios.get('https://www.googleapis.com/youtube/v3/playlistItems', {
   params: {
     part: 'snippet',
+    playlistId: 'PLnw0oJfCMWaR10TuwTXmLVUQS6CPvOCd2', // good id
     maxResults: 6, 
+    key: 'AIzaSyBg0oosTPGdnxUkoB2Y0nlg4fAPA7MbF0U'
   }
 })
 .then(function (response) {
@@ -33,7 +35,7 @@ function initVue(moveInfo){
         var move = document.querySelector('iframe');
         var moveTitleElem = document.querySelector('#moveTitle');
         //mainVideoElem.removeChild(move);
-        
+
         // Additional Processing
         var iframe = document.createElement('iframe');
         iframe.src = 'https://www.youtube.com/embed/'+ videoId +'?rel=0';
